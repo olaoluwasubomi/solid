@@ -32,7 +32,7 @@ ul li a:hover{
 .name{
     display:flex;
     height:60vh;
-    background-image:url(../advertisment/img/img1.jpg);
+    background-image:url(img1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 }
