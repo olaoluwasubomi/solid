@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* THE NAVIGATION STYLING */
+nav{
+    background-color: chocolate;
+    height:15vh;
+    width: auto;
+}
+nav ul{
+    margin-left:80px;;
+
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    float:left, line;
+}
+nav ul li a{
+    text-decoration:solid;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+    padding:45px;
+    display:block;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    color:#000000;
+}
+.name{
+    display:flex;
+    height:60vh;
+    background-image:url(../advertisment/img/img1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.name div{
+    padding:50px;
+    margin:20px 20px;
+}
+.subname{
+    text-transform:uppercase;
+    /* text-align:center; */
+    font-size:40px;
+    font-family:serif;
+    font-style:italic;
+    background-color:rgba(150,0,0,.7);
+}
+.list{
+    text-transform:capitalize;
+    color:brown;
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.text{
+    display:flex;
+    padding:50px;
+    margin:50px;
+}
+.text h4{
+    color:black;
+    font-style:italic;
+    font-size:50px;
+    font-family:fantasy;
+    text-transform:capitalize;
+    
+}
+.text p{
+    font-style:normal;
+    font-size:20px;
+    padding:50px;
+}
