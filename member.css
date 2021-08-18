@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+}
+.chair{
+    display:flex;
+    background-color:white;
+    height:30vh;   
+}
+.chair h2{
+    padding:30px;
+    font-size:60px;
+    font-style:initial;
+    text-transform:uppercase;
+}
+.chair p{
+    padding:30px;
+    line-height:20px;
+    word-spacing:15px;
+    font-style:italic;
+}
+.vice{
+    display:flex;
+    background-color:white;
+    height:30vh;
+}
+.vice h2{
+    padding:30px;
+    font-size:50px;
+    font-style:normal;
+    text-transform: uppercase;
+}
+.vice p{
+    padding:30px;
+    line-height:20px;
+    word-spacing:15px;
+    font-style:normal;
+}
+.direct{
+    display: flex;
+    background-color:white;
+    height:30vh;
+}
+.direct h2{
+    padding:30px;
+    font-size:50px;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+.direct p{
+    padding:30px;
+    line-height:20px;
+    word-spacing: 15px;
+    font-style: unset;
+}
+a{
+    color:black;
+    text-transform: capitalize;
+}
+:hover a{
+    color:red;
+    font-size:20px;
+    font-style: italic;
+}
